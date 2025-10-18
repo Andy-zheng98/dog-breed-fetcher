@@ -18,7 +18,6 @@ public class BreedFetcherForLocalTesting implements BreedFetcher {
         }
         throw new BreedNotFoundException(breed);
     }
-
     public int getCallCount() {
         return callCount;
     }
