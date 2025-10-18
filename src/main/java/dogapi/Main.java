@@ -24,7 +24,6 @@ public class Main {
      * returned by the fetcher
      */
     public static int getNumberOfSubBreeds(String breed, BreedFetcher breedFetcher) {
-
         try {
             List<String> subs = breedFetcher.getSubBreeds(breed);
             return subs.size();
